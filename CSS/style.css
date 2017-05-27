@@ -1,0 +1,72 @@
+body{ font-size: 12px;    font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+*{margin:0; padding: 0; border:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+.clr{clear:both; visibility: hidden;}
+
+#head{background-image: url(../images/back.jpg); height: 100%; position: relative; min-height: 670px;}
+.bg_img{background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;}/*zhishiying*/
+.head_in{ width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+#top{width: 100%; height: 50px; background: rgba(0,0,0,0.5); }
+.tb{width: 80px; height: 50px; color: #fff; font-size: 16px;  margin-left: 30px; }
+.tb span{ margin-top: -25px; display: block; margin-left: 40px; font-weight: 500}
+.tb img{margin-top: 10px;}
+#top ul{width: 500px; height: 60px; float: right;}
+#top li{width:50px; line-height: 50px; float: left; margin-left: 50px; }
+.top_in{color:#ffffff; font-size: 14px; text-align: center;display: block; width: 100px; height: 50px; transition: all 0.3s ease-in-out; letter-spacing: 2px; }
+.top_in:hover{background: rgba(255,255,255,0.25); }
+
+
+#page_box{height: 100vh; display: table; text-align: center; width: 100%}
+#page{width: 500px; height: 50px; display: table-cell; vertical-align: middle; }
+#page h1{ color: #fff;font-size: 4.4rem; font-weight: 300;}
+#page p{width: 400px; height: 50px; margin:0 auto; color: #fff; font-size: 14px; margin-top: 20px;  font-family:  Arial, Helvetica, sans-serif; margin-bottom: 20px;}
+#page span{margin-left: 20px; margin-right: 20px;}
+#page a{padding: 12px 40px; color: #fff; background-color: rgba(0,0,0,0); border:1px solid #fff; line-height: 35px; letter-spacing: 2px; font-size:14px; transition:all 0.3s ease-in-out; }
+#page a:hover{background-color: #fff; color: #6d6d6d}
+
+#content{width: 100%;  background: rgb(238,238,238);}
+
+.line{width: 80px; height: 5px; background-color: #515151; margin: 30px auto;}
+.text1{width: 100%; height: 200px; margin:0 auto; text-align: center; padding-top: 50px;}
+.text1 b{ font-size: 26px;color: #6d6d6d;}
+.text1 p{line-height: 30px; color: #999999; font-size: 14px; padding-top: 30px;}
+.text2 b{ font-size: 26px;color: #6d6d6d;}
+.text2 p{line-height: 30px; color: #999999; font-size: 14px; padding-top: 30px;}
+.text2{width: 100%; height: 150px; margin: 0 auto; text-align: center; margin-top: 50px;}
+
+.jd{ height: 560px; width: 1024px; margin: 0 auto}
+.jd img{width: 325px; height:200px; display: block;}
+.jd p{width: 325px;line-height: 25px; color: #999999; font-size: 14px; padding-top:20px; margin: 0 auto }
+
+.kun{width: 100%; height: 100px; background-color: #6d6d6d; font-weight:400;font-size: 2rem; color: #fff; text-align: center; line-height: 100px;}
+.kun:hover{background-color: #404040; transition:all 0.2s ease-in-out;}
+
+.gs{width: 100%; height:250px; margin-top: 100px;}
+.g_page{width: 1024px; height: 200px; margin: 0 auto}
+.g_page b{color: #6d6d6d; font-size: 22px;}
+.g_page p{width: 255px; height:150px; text-align: center;  font-size: 14px; float: left; color: #999999; line-height: 30px; }
+
+#culture{width: 100%; height: 300px; background-color: rgb(238,238,238); position: relative;}
+.cu_page{width: 1024px; height: 300px; margin:0 auto;}
+
+
+.cu_text{width: 140px; height: 300px; color: #6d6d6d; position: absolute; top: 87px; left:118px; font-size: 14px;}
+.yuan{width: 50px; height: 50px; border:1px solid #6d6d6d;  border-radius: 30px;  color: #6d6d6d; font-size: 28px;  position: absolute;  left:17px; top: 110px;}
+.yuan p{ text-align: center; line-height: 50px;}
+.cu_line{width: 2px; height: 100px; background-color: #999999; position:absolute; top: 87px; left: 90px;}
+
+.cu_l{width: 250px; height: 300px; position: relative; float: left;}
+.cu_z, .cu_m, .cu_r{width: 250px; height: 300px; position: relative; float: left; margin-left: 5px;}
+
+
+
+#footer{width: 100%; height: 200px; display:table;}
+.lxw{text-align: center; color: #999999; line-height: 25px; display: table-cell; vertical-align: middle; }
+.fx a{font-size: 16px; padding: 12px; color: #999999; }
+.fx a:hover{color: #CCC}
+.fa{display: inline-block; font-size: inherit; transition:all 0.5s ease-in-out;}
+
+#back-top{position: fixed; bottom: 9px; right: 25px; z-index: 20}
+#back-top a{display: block; color: #898989; font-size: 40px; z-index: 999}
+#back-top a:hover{color: #999999}

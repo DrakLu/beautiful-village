@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0; border:0;}
+body{width: 100%; height: 100%; background-color: #494A5F; font-size: 14px; position: relative; font-family: 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', Raleway, Verdana, Tahoma, serif;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+#all{width: 400px; position:fixed; left: 50%; top:50%;  transform: translateX(-50%) translateY(-50%);}
+#head{width: 200px; height: 80px;}
+#head img {float: left;}
+#head p{color: #fff; float: left; line-height: 50px; margin-left: 20px; font-size: 2.2em; font-weight: 500; }
+
+#content{width: 380px; height: 330px; background-color: #fff; border-radius: 5px;}
+
+#content p{color: #7F8FB7; font-size: 16px; font-weight: 700; display: inline-block; padding-bottom: 5px;  }
+.page{width: 300px; margin: 0 auto; padding: 30px 0; }
+.kuang input{border:1px solid #CCC; display: block; padding: 7px 12px; width: 280px; border-radius: 4px; color:rgba(53,64,82,.8); margin-bottom: 15px;}
+.denglu label{color: #7F8FB7; font-size: 16px; font-weight: 700;}
+.sub input{width: 305px; height: 37px; background-color: #2FB130; color: #fff; border-radius: 4px;  cursor: pointer; margin-top: 20px; margin-bottom: 40px;}
+.mima{width: 300px; text-align: center;}
+.mima a{ color: #7f8ea3; font-size: 16px;}
+.mima a:hover{border-bottom:1px solid #7f8ea3;}
+.footer{width: 380px; margin-top: 35px;}
+.footer a{color: #7f8ea3}
+.back a:hover{border-bottom: 1px solid #7f8ea3}
+.zc a:hover{border-bottom: 1px solid #7f8ea3}
+.zc{float: right;}
